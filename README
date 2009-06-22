@@ -1,0 +1,67 @@
+bodr
+------------------------------------------
+The Blue Obelisk Data Repository lists many important chemoinformatics 
+data such as element and isotope properties, atomic radii, etc. 
+including references to original literature. Developers can use this 
+repository to make their software interoperable.
+
+Build requirements:
+  cygwin-1.7.0-50
+  autoconf2.5-2.63-10
+  automake1.7-1.7.9-10
+  cygport-0.9.7-1
+  gawk-3.1.6-2
+  make-3.81-2
+  perl-5.10.0-5
+  sed-4.1.5-2
+
+Canonical website:
+  http://wiki.cubic.uni-koeln.de/bowiki/index.php/DataRepository
+
+Canonical download:
+  http://downloads.sourceforge.net/bodr/
+
+-------------------------------------------
+
+Build instructions:
+  unpack bodr-8-X-src.tar.bz2
+    if you use setup to install this src package, it will be
+	 unpacked under /usr/src automatically
+  cd /usr/src
+  cygport ./bodr-8-X.cygport all
+
+This will create:
+  /usr/src/bodr-8-X-src.tar.bz2
+  /usr/src/bodr-8-X.tar.bz2
+
+-------------------------------------------
+
+Files included in the binary package:
+
+  /usr/share/bodr/crystalstructures.xml
+  /usr/share/bodr/dicts/blueobelisk-dictionary.xml
+  /usr/share/bodr/elements.xml
+  /usr/share/bodr/isotopes.xml
+  /usr/share/bodr/space-groups.xml
+  /usr/share/doc/bodr/AUTHORS
+  /usr/share/doc/bodr/COPYING
+  /usr/share/doc/bodr/ChangeLog
+  /usr/share/doc/bodr/NEWS
+  /usr/share/doc/bodr/README
+  /usr/share/doc/bodr/THANKS
+  /usr/share/doc/bodr/TODO
+  /usr/share/doc/bodr/biblio/crystalstructures_biblio.html
+  /usr/share/doc/bodr/biblio/elements_biblio.html
+  /usr/share/doc/bodr/biblio/space-groups_biblio.html
+  /usr/share/pkgconfig/bodr.pc
+
+------------------
+
+Port Notes:
+
+----- version 8-10 -----
+Initial release for Cygwin 1.7.
+
+
+Cygwin port maintained by:
+http://sourceware.org/cygwinports/

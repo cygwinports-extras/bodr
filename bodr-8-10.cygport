@@ -1,0 +1,3 @@
+DESCRIPTION="Blue Obelisk Data Repository for chemistry"
+HOMEPAGE="http://wiki.cubic.uni-koeln.de/bowiki/index.php/DataRepository"
+SRC_URI="mirror://sourceforge/${PN}/${P}.tar.bz2"
